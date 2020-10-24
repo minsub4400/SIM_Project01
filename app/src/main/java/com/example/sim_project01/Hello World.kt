@@ -11,6 +11,17 @@ fun main() {
     println(hi())
     println(ho())
     println(add(4,5))
+    // String Template
+    val name = "minsub"
+    val lastname = "Sim"
+    println("my name is ${name + lastname} I'm 23")
+    println("this is 2\$a") //$를 사용하고 싶을 땐, 앞에 \ 를 붙여 준다
+    /*
+    ㅇㄴㅁㅇㄴㅁㅇ
+    ㅇㄴㅁㅇㅁㄴㅇㅁㄴㅇㅇㄴ
+    ㅇㄴㅁㅇㄴㅁㅁㅇㄴㅁ
+    ㅇㄴㅁㅇㄴㅁㅇㅁㄴ
+     */
 
 }
 
@@ -26,3 +37,4 @@ fun ho() : Unit { //함수 호출
 fun add(a : Int, b : Int) : Int {
     return a+b
 }
+
